@@ -30,8 +30,8 @@ jobs:
           import os
 
           packages = {
-              "amd64": "https://github.com/users/aatrubilin/packages/container/package/hassio-torrserver%2Famd64",
-              "aarch64": "https://github.com/users/aatrubilin/packages/container/package/hassio-torrserver%2Faarch64"
+              "amd64": "https://github.com/users/KsergeyI/packages/container/package/hassio-torrserver%2Famd64",
+              "aarch64": "https://github.com/users/KsergeyI/packages/container/package/hassio-torrserver%2Faarch64"
           }
 
           os.makedirs("badges", exist_ok=True)
