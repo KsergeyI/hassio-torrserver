@@ -23,6 +23,7 @@ COPY --from=front /app/build /opt/src/web/build
 WORKDIR /opt/src
 
 ARG TARGETARCH
+ARG VERSION
 
 # Step for multiarch build with docker buildx
 ENV GOARCH=$TARGETARCH
@@ -33,7 +34,7 @@ RUN apk add --update g++ \
   && cd server \
   && go mod tidy \
   && go clean -i -r -cache \
-  && go build -ldflags '-w -s' --o "torrserver" ./cmd
+  && go build -ldflags "-w -s -X server/version.Version=${VERSION}" --o "torrserver" ./cmd
 #### BUILD TORRSERVER MULTIARCH END ###
 
 
