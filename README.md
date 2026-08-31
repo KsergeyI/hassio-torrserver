@@ -1,9 +1,12 @@
 # TorrServer app for Home Assistant
 
-Authors & contributors
-The original TorrServer is developed by @YouROK. For more information please visit this page: YouROK/TorrServer
+The hassio app is brought to you by [@aatrubilin](https://github.com/aatrubilin) based on [https://github.com/YouROK/TorrServer](https://github.com/YouROK/TorrServer)
+Got questions or problems?
 
-The hassio app is brought to you by @aatrubilin.
+You can [open an issue here](https://github.com/aatrubilin/hassio-torrserver/issues) GitHub.
 
-License
-GNU General Public License v3.0
+> _Please keep in mind, that this app is tested only with **HA OS**_
+
+----
+
+The hassio app is brought to you by [@aatrubilin](https://github.com/aatrubilin) based on [YouROK/TorrServer](https://github.com/YouROK/TorrServer)
